@@ -1,0 +1,103 @@
+.main-container {
+    margin-top: 100px;
+}
+
+.fa-microphone {
+    color: rgb(255, 255, 130);
+}
+
+.fa-microphone:hover {
+    color: yellow;
+}
+
+.fa-file-audio {
+    color: #FF652F;
+}
+
+.fa-file-audio:hover {
+    color: #d44916;
+}
+
+.output-display {
+    background-color: #383b4b;
+    height: 300px;
+}
+
+.output-display-info {
+    background-color: lightgrey;
+    height: 120px;
+}
+
+.output-display-info-title {
+    background-color: lightgrey;
+    height: 80px;
+    padding: 5px;
+}
+
+.fas, .fa {
+    cursor: pointer;
+}
+
+.background {
+    background-color: white;
+    color: #747474;
+}
+
+#stop-recording-button {
+    display: none;
+    margin-bottom: 2em;
+}
+
+.header img {
+    float: left;
+    width: 120px;
+    height: 120px;
+    background: #555;
+}
+  
+.header h1 {
+    float: right;
+    position: relative;
+    top: 18px;
+    left: 10px;
+}
+
+.default-mic {
+    text-align: center;
+    margin: 1em;
+}
+
+.container {
+    height: 200px;
+    position: relative;
+}
+
+.mic-info-container {
+    height: 100px;
+    position: relative;
+}
+  
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.post-login {
+    display: none;
+}
+
+h3 {
+    padding: 5px;
+}
+
+h5 {
+    padding: 1em;
+}
+
+code {
+    padding: 5px;
+}
