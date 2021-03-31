@@ -1255,7 +1255,7 @@ def sendAuthCodeSMS(auth_code, phone_number):
     message_output = client.messages \
         .create(
             body="{0}:Your one time code is: {1}. Please say or enter the code in the {2} app to complete verification".format(APP_NAME, auth_code, APP_NAME),
-            from_='+17865094977',
+            from_=config('TWILIO_FROM_PHONE'),
             to=phone_number
         )
     print(message_output)
@@ -1269,7 +1269,7 @@ def sendBuildCompletedSMS(phone_number, target, url):
     message_output = client.messages \
         .create(
             body="{0}:Your {1} page can be accessed using this link: {2}".format(APP_NAME, target, url),
-            from_='+17865094977',
+            from_=config('TWILIO_FROM_PHONE'),
             to=phone_number
         )
     print(message_output)
