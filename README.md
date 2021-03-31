@@ -8,13 +8,13 @@ Voicemake allows users of all skill levels and most disabilities to easily build
 
 # For Running the Token server application
 
-- After cloing this repo change directory to token-service/
+- After cloning this repo change directory to token-service/
 - Create .env or rename the .env_sample to .env and add the values for the config parameters
 - Install the dependencies using npm install
 - Run the project using node index.js
 
 # For Running the Frontend application
-- After cloing this repo change directory to front-end/
+- After cloning this repo change directory to front-end/
 - Install the dependencies using npm install
 - Run the project using npm run dev
 
